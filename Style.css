@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+header{
+    padding: 35px 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 15vh;
+    border: 1px solid black;
+
+
+
+}
+.logo{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.search-field i{
+    padding: 10px;
+
+    
+
+}
+input{
+    width: 400px;
+    border:2px solid black;
+    border-radius: 25px;
+    padding: 9px 9px 9px 40px;
+
+    
+}
+
+.log-in button{
+    background-color: rgb(18, 155, 155);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    padding: 10px;
+    
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+.fa-solid{
+    position: fixed;
+    
+} 
+
+
+
+
+
+
+
+
